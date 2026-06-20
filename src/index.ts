@@ -34,7 +34,7 @@ async function main(): Promise<void> {
     logger.info('==============================================');
     logger.info('  Done. Exiting.                             ');
     logger.info('==============================================');
-    process.exit(0);
+    process.exit(0) ;
 }
 
 main().catch((err) => {
