@@ -1,0 +1,28 @@
+{
+  "name": "gold-price-telegram-alert",
+  "version": "2.0.0",
+  "description": "Monitor gold prices and send Telegram alerts – runs via GitHub Actions",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "monitor": "ACTION=monitor node dist/index.js",
+    "daily-report": "ACTION=daily-report node dist/index.js",
+    "dev:monitor": "ACTION=monitor ts-node src/index.ts",
+    "dev:daily-report": "ACTION=daily-report ts-node src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.17.0",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

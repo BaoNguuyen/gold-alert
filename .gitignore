@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.js.map
+
+# data/ được track để lưu state qua các lần GitHub Actions chạy
+# Chỉ ignore file tạm nếu có
+# data/
