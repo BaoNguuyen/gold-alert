@@ -1,10 +1,10 @@
 {
   "lastPrice": {
-    "price": 146200000,
+    "price": 146800000,
     "unit": "VND/lượng",
-    "fetchedAt": "2026-06-25T23:19:18.339Z",
+    "fetchedAt": "2026-06-26T03:50:57.702Z",
     "source": "vang.today (SJC 9999)"
   },
-  "lastAlertAt": "2026-06-25T03:40:20.131Z",
-  "lastAlertDirection": "DOWN"
+  "lastAlertAt": "2026-06-26T03:50:59.435Z",
+  "lastAlertDirection": "UP"
 }
